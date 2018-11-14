@@ -1,5 +1,5 @@
 import GTM from 'gtm';
 
-class CtaEventTracker {
+export default class CtaEventTracker {
 	
 }
