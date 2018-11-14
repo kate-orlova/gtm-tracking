@@ -14,3 +14,5 @@ class GTM {
         }
     }
 }
+
+export default new GTM();
