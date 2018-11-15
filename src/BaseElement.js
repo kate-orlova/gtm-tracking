@@ -1,3 +1,3 @@
-class BaseElement {
+export default class BaseElement {
 	
 }
