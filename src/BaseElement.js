@@ -16,4 +16,14 @@ export default class BaseElement {
 	addListeners() {
         throw new Error('addListeners() is not implemented');
     }
+	
+	addListener(elem, eventName, eventCallback) {
+
+        elem.addEventListener(eventName, eventCallback);
+        this.listenerList.push({
+            elem,
+            eventName,
+            eventCallback
+        });
+    }
 }
