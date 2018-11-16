@@ -18,6 +18,7 @@ export default class BaseElement {
     }
 	
 	addListener(elem, eventName, eventCallback) {
+        if (!elem || typeof elem.addEventListener !== 'function') return;
 
         elem.addEventListener(eventName, eventCallback);
         this.listenerList.push({
