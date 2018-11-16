@@ -4,4 +4,8 @@ export default class BaseElement {
         this.isInited = false;
         this.listenerList = [];
     }
+	
+	init() {
+        throw new Error('Init() method is not implemented');
+    }
 }
