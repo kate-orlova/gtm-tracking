@@ -12,4 +12,8 @@ export default class BaseElement {
 	setVariables() {
         throw new Error('setVariables() is not implemented');
     }
+	
+	addListeners() {
+        throw new Error('addListeners() is not implemented');
+    }
 }
