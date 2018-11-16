@@ -6,6 +6,10 @@ export default class BaseElement {
     }
 	
 	init() {
-        throw new Error('Init() method is not implemented');
+        throw new Error('init() method is not implemented');
+    }
+	
+	setVariables() {
+        throw new Error('setVariables() is not implemented');
     }
 }
