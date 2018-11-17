@@ -3,4 +3,12 @@ import GTM from 'gtm';
 
 export default class CtaEventTracker extends BaseElement {
 	
+	constructor(el) {
+        super(el);
+        this.trackCategory = null;
+        this.trackLabel = null;
+        this.elText = null;
+        this.pageName = document.title;
+    }
+	
 }
