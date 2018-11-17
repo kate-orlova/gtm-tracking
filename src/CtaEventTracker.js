@@ -11,4 +11,8 @@ export default class CtaEventTracker extends BaseElement {
         this.pageName = document.title;
     }
 	
+	init() {
+        this.el.addEventListener('click', this.onClick.bind(this));
+    }
+	
 }
