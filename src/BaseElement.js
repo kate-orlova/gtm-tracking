@@ -40,4 +40,9 @@ export default class BaseElement {
 	
 	onDestroy() {
     }
+	
+	destroy() {
+        this.removeListeners();
+        this.onDestroy();
+    }
 }
