@@ -27,4 +27,14 @@ export default class BaseElement {
             eventCallback
         });
     }
+	
+	removeListeners() {
+        this.listenerList.forEach((listener) => {
+            const { elem, eventName, eventCallback } = listener;
+
+            elem.removeEventListener(eventName, eventCallback);
+        });
+
+        this.listenerList = [];
+    }
 }
