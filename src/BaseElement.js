@@ -37,4 +37,7 @@ export default class BaseElement {
 
         this.listenerList = [];
     }
+	
+	onDestroy() {
+    }
 }
