@@ -16,4 +16,8 @@ export default class CtaEventTracker extends BaseElement {
         this.el.addEventListener('click', this.onClick.bind(this));
     }
 	
+	onDestroy() {
+        this.el = null;
+    }
+	
 }
