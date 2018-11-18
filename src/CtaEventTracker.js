@@ -20,4 +20,7 @@ export default class CtaEventTracker extends BaseElement {
         this.el = null;
     }
 	
+	onClick() {
+	}
+	
 }
