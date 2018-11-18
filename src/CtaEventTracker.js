@@ -9,6 +9,7 @@ export default class CtaEventTracker extends BaseElement {
         this.trackLabel = null;
         this.elText = null;
         this.pageName = document.title;
+		this.init();
     }
 	
 	init() {
