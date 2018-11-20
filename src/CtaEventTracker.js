@@ -21,6 +21,8 @@ export default class CtaEventTracker extends BaseElement {
     }
 	
 	onClick() {
+		this.elText = this.el.innerText || this.el.textContent;
+		
 		GTM.push(this.trackCategory, 'click', this.trackLabel);
 	}
 	
