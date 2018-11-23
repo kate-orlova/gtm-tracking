@@ -3,6 +3,8 @@ GTM Tracking is an open source library supporting an integration with [Google Ta
 
 Key classes implementing the core functionality are
 1. GTM class to extend the standard push method
+2. BaseElement
+3. CtaEventTracker
 
 # Contribution
 Hope you found this library helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
