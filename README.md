@@ -6,5 +6,7 @@ Key classes implementing the core functionality are
 2. BaseElement class defines a basic element with the commin properties and methods;
 3. CtaEventTracker class implements an event handler for tracking by data attributes.
 
+Once you have integrated this library into your solution, you can simply specify the required data attributes to the elemnets you want to track.
+
 # Contribution
 Hope you found this library helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
