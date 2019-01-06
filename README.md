@@ -12,3 +12,6 @@ Once you have integrated this library into your solution, you can simply specify
 
 # Contribution
 Hope you found this library helpful, your contributions and suggestions will be very much appreciated. Please submit a pull request.
+
+# License
+GTM Tracking library is released under the MIT license what means that you can modify and use it how you want even for commercial use. Please give it a star if you like it and your experience was positive.
