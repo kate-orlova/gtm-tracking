@@ -1,5 +1,7 @@
 [![GitHub license](https://img.shields.io/github/license/kate-orlova/gtm-tracking.svg)](https://github.com/kate-orlova/gtm-tracking/blob/master/LICENSE)
+![GitHub language count](https://img.shields.io/github/languages/count/kate-orlova/gtm-tracking.svg?style=flat)
 ![GitHub top language](https://img.shields.io/github/languages/top/kate-orlova/gtm-tracking.svg?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/kate-orlova/gtm-tracking.svg?style=flat)
 
 
 # GTM Tracking
