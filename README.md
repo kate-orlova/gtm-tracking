@@ -2,6 +2,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/kate-orlova/gtm-tracking.svg?style=flat)
 ![GitHub top language](https://img.shields.io/github/languages/top/kate-orlova/gtm-tracking.svg?style=flat)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kate-orlova/gtm-tracking.svg?style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/kate-orlova/gtm-tracking)
 
 
 # GTM Tracking
